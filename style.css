@@ -3,6 +3,9 @@
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
 </style> */
+body{
+    background-color: hsl(239, 57%, 85%);
+}
 
 .container{
     display: flex;
@@ -11,8 +14,22 @@
     justify-content: space-between;
 }
 
-.comments{
+.commentBox{
     padding: 20px; 
     margin: 20px; 
-    border-radius: 30%;
+    border-radius: 2%;
+    background-color: white;
+    width: 600px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.commentHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
