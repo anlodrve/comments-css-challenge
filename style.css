@@ -116,3 +116,27 @@ body{
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
+.taggedFirstLine{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 7;
+}
+
+.taggedCommentText{
+    color:  hsl(211, 10%, 45%);
+    width: 550px; 
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 7;
+}
+
+.tagged{
+    font-weight: 500;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 7;
+}
